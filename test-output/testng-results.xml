@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-25T13:34:38Z" name="Flipkart Suite" finished-at="2024-02-25T13:35:01Z" duration-ms="23193">
+    <groups>
+    </groups>
+    <test started-at="2024-02-25T13:34:38Z" name="Testing - Flipkart - Chrome" finished-at="2024-02-25T13:35:01Z" duration-ms="23193">
+      <class name="com.qa.testscript.TC_Flipkart_001">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscript.TC_Flipkart_001@52102734]" started-at="2024-02-25T13:34:38Z" name="setUp" finished-at="2024-02-25T13:34:46Z" duration-ms="8018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Flipkart()[pri:0, instance:com.qa.testscript.TC_Flipkart_001@52102734]" started-at="2024-02-25T13:34:46Z" name="Flipkart" finished-at="2024-02-25T13:35:00Z" duration-ms="13608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flipkart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscript.TC_Flipkart_001@52102734]" started-at="2024-02-25T13:35:00Z" name="tearDown" finished-at="2024-02-25T13:35:01Z" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscript.TC_Flipkart_001 -->
+    </test> <!-- Testing - Flipkart - Chrome -->
+  </suite> <!-- Flipkart Suite -->
+</testng-results>

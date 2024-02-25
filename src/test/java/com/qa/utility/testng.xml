@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Flipkart Suite" thread-count="1" parallel="tests" >
+   <listeners>
+	  <listener class-name="com.qa.utility.Reporting"></listener>
+   </listeners>
+<parameter name="Url" value="https://www.flipkart.com/"></parameter>  
+   <test thread-count="1" name="Testing - Flipkart - Chrome" parallel="classes" >
+   <parameter name="Browser" value="Chrome"></parameter>
+    <classes>
+      <class name="com.qa.testscript.TC_Flipkart_001"/>
+    </classes>
+  </test> <!-- Testing - Flipkart --> 
+</suite> <!-- Flipkart Suite -->

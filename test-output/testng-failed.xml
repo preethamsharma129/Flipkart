@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Autify Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="Url" value="https://www.flipkart.com/"/>
+  <listeners>
+    <listener class-name="com.qa.utility.Reporting"/>
+  </listeners>
+  <test thread-count="1" parallel="classes" name="Testing - Autify - Chrome(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.qa.testscript.TC_Flipkart_001">
+        <methods>
+          <include name="setUp"/>
+          <include name="Flipkart"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.testscript.TC_Flipkart_001 -->
+    </classes>
+  </test> <!-- Testing - Autify - Chrome(failed) -->
+</suite> <!-- Failed suite [Autify Suite] -->
